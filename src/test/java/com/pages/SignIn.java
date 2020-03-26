@@ -39,7 +39,7 @@ public class SignIn {
 
 	public void submit() throws InterruptedException {
 		driver.findElement(By.xpath("//p[@class='submit']//span[1]")).click();
-		Thread.sleep(3000);
+		Thread.sleep(300);
 		driver.close(); // close the current tab
 	}
 }
