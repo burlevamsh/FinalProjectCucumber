@@ -42,6 +42,7 @@ Then Click on the women button and navigate to the next page
 Then click on the dress and navigate to next page and count the items in that page
 @TC07_Yourlogo
 Scenario:
+Write a review to the selected item 
 Given open the site in chrome browser
 When after opening the site login into the page
 Then back to home page and click on the women button
@@ -59,6 +60,7 @@ When after opening the site login into the page with valid credentials and navig
 Then find the number links in a given page
 @TC010_Yourlogo
 Scenario:
+Newsletter box checking for the email is exist or not
 Given open the site in chrome and lanch the website
 When login to the page
 Then send keys to the newsletters
